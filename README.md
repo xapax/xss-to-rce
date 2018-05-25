@@ -1,6 +1,6 @@
 # XSS-to-RCE
 
-The usecase is for websites that encourage linux-users to copy commands straight into the terminal.
+The use case for this javascript-payload is for websites that encourage linux-users to copy commands straight into the terminal.
 
 If that website contains a XSS vulnerability, or an attacker is able to execute javascript on the page in some other way, the attacker is able to hijack the users clipboard and inject a terminal command that is quite stealthy.
 
